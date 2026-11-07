@@ -1,0 +1,9 @@
+{
+  "id": "threads",
+  "name": "Threads",
+  "description": "Abre posts com aviso de conteúdo sensível automaticamente.",
+  "matches": ["*://*.threads.net/*", "*://*.threads.com/*"],
+  "order": 60,
+  "color": "#a1a1aa",
+  "category": "Social"
+}

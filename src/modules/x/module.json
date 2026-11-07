@@ -1,0 +1,10 @@
+{
+  "id": "x",
+  "name": "X (Twitter)",
+  "description": "Desativa o fluxo de verificação de idade e os avisos de conteúdo sensível.",
+  "matches": ["*://*.x.com/*", "*://*.twitter.com/*"],
+  "order": 20,
+  "color": "#e7e9ea",
+  "category": "Social",
+  "pageScript": "page.ts"
+}

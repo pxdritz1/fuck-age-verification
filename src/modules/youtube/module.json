@@ -1,0 +1,13 @@
+{
+  "id": "youtube",
+  "name": "YouTube",
+  "description": "Desbloqueia vídeos com restrição de idade e pula avisos de conteúdo.",
+  "matches": ["*://*.youtube.com/*"],
+  "order": 30,
+  "color": "#ff0033",
+  "category": "Vídeo",
+  "pageScript": "page.ts",
+  "pageMatches": ["*://*.youtube.com/*"],
+  "pageRunAt": "document_start",
+  "pageAllFrames": true
+}

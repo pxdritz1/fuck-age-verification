@@ -1,0 +1,9 @@
+{
+  "id": "tiktok",
+  "name": "TikTok",
+  "description": "Pula avisos de conteúdo sensível e confirmações de idade.",
+  "matches": ["*://*.tiktok.com/*"],
+  "order": 70,
+  "color": "#25f4ee",
+  "category": "Social"
+}

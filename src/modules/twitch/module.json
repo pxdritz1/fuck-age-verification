@@ -1,0 +1,9 @@
+{
+  "id": "twitch",
+  "name": "Twitch",
+  "description": "Remove o aviso de conteúdo adulto e inicia a transmissão automaticamente.",
+  "matches": ["*://*.twitch.tv/*"],
+  "order": 80,
+  "color": "#9146ff",
+  "category": "Vídeo"
+}

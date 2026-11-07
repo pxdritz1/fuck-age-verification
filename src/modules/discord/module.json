@@ -1,0 +1,9 @@
+{
+  "id": "discord",
+  "name": "Discord",
+  "description": "Abre canais com restrição de idade no Discord Web.",
+  "matches": ["*://*.discord.com/*"],
+  "order": 90,
+  "color": "#5865f2",
+  "category": "Comunidade"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "instagram",
+  "name": "Instagram",
+  "description": "Abre posts com aviso de conteúdo sensível automaticamente.",
+  "matches": ["*://*.instagram.com/*"],
+  "order": 40,
+  "color": "#e1306c",
+  "category": "Social"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "reddit",
+  "name": "Reddit",
+  "description": "Pula o aviso 18+ e mantém o cookie over18 ativo.",
+  "matches": ["*://*.reddit.com/*"],
+  "order": 10,
+  "color": "#ff4500",
+  "category": "Social",
+  "cookies": [
+    {
+      "name": "over18",
+      "value": "1",
+      "domain": ".reddit.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "lax",
+      "expirationDays": 3650
+    }
+  ]
+}

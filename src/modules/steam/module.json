@@ -1,0 +1,56 @@
+{
+  "id": "steam",
+  "name": "Steam",
+  "description": "Define os cookies de idade e preenche o age gate da loja.",
+  "matches": ["*://*.steampowered.com/*", "*://*.steamcommunity.com/*"],
+  "order": 100,
+  "color": "#66c0f4",
+  "category": "Games",
+  "cookies": [
+    {
+      "name": "wants_mature_content",
+      "value": "1",
+      "domain": ".steampowered.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "lax",
+      "expirationDays": 3650
+    },
+    {
+      "name": "lastagecheckage",
+      "value": "1-January-1995",
+      "domain": ".steampowered.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "lax",
+      "expirationDays": 3650
+    },
+    {
+      "name": "birthtime",
+      "value": "788914801",
+      "domain": ".steampowered.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "lax",
+      "expirationDays": 3650
+    },
+    {
+      "name": "wants_mature_content",
+      "value": "1",
+      "domain": ".steamcommunity.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "lax",
+      "expirationDays": 3650
+    },
+    {
+      "name": "mature_content",
+      "value": "1",
+      "domain": ".steamcommunity.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "lax",
+      "expirationDays": 3650
+    }
+  ]
+}

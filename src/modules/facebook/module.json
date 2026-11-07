@@ -1,0 +1,9 @@
+{
+  "id": "facebook",
+  "name": "Facebook",
+  "description": "Pula a confirmação de idade de páginas e avisos de conteúdo sensível.",
+  "matches": ["*://*.facebook.com/*"],
+  "order": 50,
+  "color": "#1877f2",
+  "category": "Social"
+}

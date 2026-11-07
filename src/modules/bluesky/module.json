@@ -1,0 +1,11 @@
+{
+  "id": "bluesky",
+  "name": "Bluesky",
+  "description": "Remove avisos de conteúdo sensível e a verificação de idade do Bluesky.",
+  "matches": ["*://*.bsky.app/*"],
+  "order": 65,
+  "color": "#0085ff",
+  "category": "Social",
+  "pageScript": "page.ts",
+  "pageRunAt": "document_start"
+}
