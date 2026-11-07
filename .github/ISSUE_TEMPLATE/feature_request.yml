@@ -1,0 +1,45 @@
+name: Feature request
+description: Sugerir um novo site ou uma melhoria
+title: '[Feature]: '
+labels: [enhancement]
+body:
+  - type: input
+    id: site
+    attributes:
+      label: Site ou recurso
+      description: Qual site, página ou comportamento a solicitação cobre?
+      placeholder: exemplo.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual problema isso resolve?
+      description: Descreva o aviso, overlay ou gate de idade que aparece hoje.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Solução proposta
+      description: Se souber como o site implementa o gate, descreva aqui.
+    validations:
+      required: false
+
+  - type: input
+    id: example
+    attributes:
+      label: URL de exemplo
+      placeholder: https://exemplo.com/pagina
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmação
+      options:
+        - label: A solicitação é sobre um gate client-side, não uma verificação de idade no servidor.
+          required: true

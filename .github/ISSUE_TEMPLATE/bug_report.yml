@@ -1,0 +1,82 @@
+name: Bug report
+description: Relatar um site que não funciona ou um comportamento inesperado
+title: '[Bug]: '
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar. Antes de abrir a issue, confirme que o problema não é uma
+        verificação de idade feita no servidor (ID, cartão de crédito, selfie etc.).
+        Esse tipo de verificação não pode ser removida pela extensão.
+
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador e versão
+      placeholder: Firefox 142, Chrome 138, Edge 138...
+    validations:
+      required: true
+
+  - type: input
+    id: extension-version
+    attributes:
+      label: Versão da extensão
+      description: Aparece no rodapé do popup.
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: site
+    attributes:
+      label: Site e URL
+      description: Informe a página exata onde o problema acontece.
+      placeholder: https://www.reddit.com/r/exemplo/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Abra ...
+        2. Clique em ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamento atual
+      description: Inclua capturas de tela ou o texto do aviso, se possível.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs do console
+      description: Erros do console da página ou do console da extensão.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmações
+      options:
+        - label: Testei com a versão mais recente da extensão.
+          required: true
+        - label: O problema não é uma verificação de idade feita no servidor.
+          required: true
